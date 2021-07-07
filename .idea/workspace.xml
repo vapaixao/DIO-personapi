@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23b6fbd8-8b1f-4ee0-8091-60988acb848a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/exception/PersonNotFoundExeption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/Service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/Service/PersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/controller/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/mapper/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/mapper/PersonMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -2,6 +2,7 @@ package com.vapaixao.personapi.mapper;
 
 import com.vapaixao.personapi.dto.request.PersonDTO;
 import com.vapaixao.personapi.entity.Person;
+import org.mapstruct.factory.Mappers;
 import org.springframework.web.bind.annotation.Mapping;
 
 public class PersonMapper {
