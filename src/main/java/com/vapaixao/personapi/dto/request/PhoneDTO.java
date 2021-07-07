@@ -15,7 +15,6 @@ import javax.persistence.Enumerated;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Validated
 public class PhoneDTO {
 
     private Long id;

@@ -1,10 +1,12 @@
 package com.vapaixao.personapi.dto.request;
 
 
+import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.validation.annotation.Validated;
 
 import java.util.List;
 
@@ -21,13 +23,15 @@ public class PersonDTO {
     @Size(min = 2, max = 100)
     private String firstName;
 
-
-    private String getLastName;
+    @NotEmpty
+    @Size(min = 2, max = 100)
+    private String lastName;
 
     @NotEmpty
     @CPF
     private String cpf;
 
+    @NotNull
     private String birthDate;
 
     @Valid

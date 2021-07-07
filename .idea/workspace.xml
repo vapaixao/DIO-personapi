@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23b6fbd8-8b1f-4ee0-8091-60988acb848a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_core_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_taglib_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/personapi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/PersonapiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/PersonapiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/Service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/Service/PersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/dto/request/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/dto/request/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/dto/request/PhoneDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/dto/request/PhoneDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/entity/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/entity/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/exception/PersonNotFoundExeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/exception/PersonNotFoundExeption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/mapper/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapaixao/personapi/dto/mapper/PersonMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

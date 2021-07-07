@@ -1,13 +1,13 @@
-package com.vapaixao.personapi.mapper;
+package com.vapaixao.personapi.dto.mapper;
 
 import com.vapaixao.personapi.dto.request.PersonDTO;
 import com.vapaixao.personapi.entity.Person;
-import org.mapstruct.factory.Mappers;
+import org.mapstruct.Mapper;
 import org.springframework.web.bind.annotation.Mapping;
 
-public class PersonMapper {
 
-    PersonMapper INSTANCE = Mappers.getMapper(PersonMapper.class);
+@Mapper(componentModel = "Spring")
+public interface PersonMapper {
 
     @Mapping(target = "birthDate", source = "birthDate", dateFormat = "dd-MM-yyyy")
     public Person toModel(PersonDTO personDTO);
