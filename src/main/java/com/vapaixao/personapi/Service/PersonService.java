@@ -1,5 +1,6 @@
 package com.vapaixao.personapi.Service;
 
+import com.vapaixao.personapi.exception.PersonNotFoundExeption;
 import com.vapaixao.personapi.dto.MessageResponseDTO;
 import com.vapaixao.personapi.dto.request.PersonDTO;
 import com.vapaixao.personapi.entity.Person;
@@ -10,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -39,5 +41,11 @@ public class PersonService {
         return allPeople.stream()
                 .map(personMapper::toDTO)
                 .collect(Collectors.toList());
+    }
+
+    public PersonDTO findById(Long id) throws PersonNotFoundExeption {
+        Person person = personRepository.findById(id)
+                .orElseThrow(() -> new PersonNotFoundExeption(id));
+        return personMapper.toDTO(person);
     }
 }

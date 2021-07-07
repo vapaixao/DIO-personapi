@@ -1,6 +1,7 @@
 package com.vapaixao.personapi.controller;
 
 import com.vapaixao.personapi.Service.PersonService;
+import com.vapaixao.personapi.exception.PersonNotFoundExeption;
 import com.vapaixao.personapi.dto.MessageResponseDTO;
 import com.vapaixao.personapi.dto.request.PersonDTO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +29,13 @@ public class PersonController {
         return personService.createPerson(personDTO);
     }
 
+    @GetMapping
     public List<PersonDTO> listAll(){
         return personService.listAll();
+    }
+
+    @GetMapping("/{id}")
+    public PersonDTO findById(@PathVariable Long id) throws PersonNotFoundExeption {
+        return personService.findById(id);
     }
 }
