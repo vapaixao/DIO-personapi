@@ -2,10 +2,12 @@ package com.vapaixao.personapi.controller;
 
 import com.vapaixao.personapi.Service.PersonService;
 import com.vapaixao.personapi.dto.MessageResponseDTO;
-import com.vapaixao.personapi.entity.Person;
+import com.vapaixao.personapi.dto.request.PersonDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 
 @RestController
@@ -22,7 +24,11 @@ public class PersonController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public MessageResponseDTO createPerson(@RequestBody Person person){
-        return personService.createPerson(person);
+    public MessageResponseDTO createPerson(@RequestBody @Valid PersonDTO personDTO){
+        return personService.createPerson(personDTO);
+    }
+
+    public List<PersonDTO> listAll(){
+        return personService.listAll();
     }
 }
